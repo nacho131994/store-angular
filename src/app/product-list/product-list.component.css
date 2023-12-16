@@ -1,66 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
-.products-section {
+  .products-section {
     display: flex;
     flex-wrap: wrap;
     gap:4rem;
     justify-content: center;
   }
-
   .item-title-container{
-    background-color: rgb(0, 0, 0);
-    height:3rem;
+    background-color:rgb(32, 43, 91);
+    height:5rem;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     font-family: 'Afacad', sans-serif;
     align-items: center;
     text-align: center;
     margin:0 auto;
-    color:white
-    
+    color:white;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+    text-align: center;
   }
-
   .item {
     width: calc(22% - 10px);
-    margin-bottom: 20px; 
+
     border:1px solid black;
     border-radius:10px;
     background-color: rgb(234, 234, 234);
- 
     justify-content: center;
     align-items: center;
     text-align: center;
-    
   }
-  
-
-  .item-picture{
-    width:7rem;
-    height:10rem;
+ .item-picture{
+    width:8rem;
+    height:11rem;
     object-fit: contain;
     margin-top:10px;
-
-    
-  }
+    width: 100%;
   
+
+  }
+
+
   .item-description {
-   height: 130px;
+    height: 130px;
     overflow-y: auto; 
     font-family: 'Afacad', sans-serif;
     padding:0 2rem;
     border:1px solid rgb(173, 173, 173);
     margin:1rem ;
     background-color: WHITE;
-  
   }
-  
   .item-category{
     margin:0;
     color:rgb(255, 255, 255);
     font-weight: 800;
     font-size:20px;
-    -webkit-text-stroke-width:1px;
-    -webkit-text-stroke-color: black;
+    font-weight: 900;
+    font-family: 'Afacad', sans-serif;
+    background-color: rgb(64, 80, 150);
+    padding:0.5rem 1rem;
+    border-radius: 10px;
   }
   .price-and-buy{
     display: flex;
@@ -73,25 +72,28 @@
   }
   .price-and-buy button{
     border-radius:10px;
-    
     font-family: 'Afacad', sans-serif;
-    background-color: WHITE;
-    border:1px solid BLACK
+    background-color: rgb(64, 207, 73);
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:0.5rem 1rem;
+    font-size:20px
   }
   .price-and-buy button:hover{
-transform: scale(1.2);
-background-color: rgb(0, 0, 0);
-color:white;
+    
+    background-color: rgb(36, 145, 44);
+   
+    color:white;
   }
   .fa-solid{
-    color:green
+    color:rgb(6, 255, 6)
   }
-h1{
+  h1{
   display:flex;
   align-items: center;
   justify-content: center;
   margin:0 auto 2rem auto;
   font-family: 'Afacad', sans-serif;
   background-color: rgb(237, 237, 237);
-
 }

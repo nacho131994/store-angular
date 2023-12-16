@@ -2,23 +2,20 @@
 <div class="app-container">
   <div class="search-section">
     <div class="input">
-      <p>Search a product</p>
       <input
         type="text"
         (input)="handleSearchByName($event)"
         [value]="searchByName"
+        placeholder="Search a product"
       />
     </div>
 
     <div class="input">
-      <p>Select a category</p>
       <select
         (change)="handleSelectCategory($event)"
         [value]="selectedCategory"
       >
-        <option [disabled]="selectedCategory !== undefined">
-          Select a category
-        </option>
+        <option value="" hidden>Select a category</option>
         <option value="all">All Categories</option>
         <option value="men's clothing">Men Clothing</option>
         <option value="women's clothing">Women Clothing</option>

@@ -14,6 +14,7 @@
     gap:2rem;
     align-items: center;
     text-align: center;
+    font-family: 'Afacad', sans-serif;
 }
 .input{
     display: flex;
@@ -21,4 +22,8 @@
 }
 .input p{
     margin:0
+}
+select{
+    width:180px;
+    justify-content: center;
 }

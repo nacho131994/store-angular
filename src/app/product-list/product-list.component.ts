@@ -1,4 +1,3 @@
-// product-list.component.ts
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -22,7 +21,6 @@ export class ProductListComponent {
   }
 
   onConfirmPurchase() {
-    // Aquí puedes agregar la lógica para procesar la compra
     console.log('Compra confirmada:', this.selectedItem);
     this.showModal = false;
   }

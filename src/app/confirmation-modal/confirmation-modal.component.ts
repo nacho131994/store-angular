@@ -1,4 +1,4 @@
-// confirmation-modal.component.ts
+
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
@@ -6,10 +6,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   template: `
     <div class="modal-overlay" *ngIf="showModal">
       <div class="modal-container">
-        <p>{{ confirmationMessage }}</p>
-        <p *ngIf="price">PRICE: {{ price }} €</p>
-        <button (click)="onConfirm()">BUY</button>
-        <button (click)="onCancel()">CANCEL</button>
+        <p class="confirmation-message">{{ confirmationMessage }}</p>
+        <p *ngIf="price" class="price-message">PRICE: {{ price }} €</p>
+        <button (click)="onConfirm()" class="confirm-button">BUY</button>
+        <button (click)="onCancel()" class="deny-button">CANCEL</button>
       </div>
     </div>
   `,
