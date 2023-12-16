@@ -1,0 +1,31 @@
+<h1>
+  {{
+    selectedCategory && filteredProducts.length > 0
+      ? "Category: " + selectedCategory.toUpperCase()
+      : "No results"
+  }}
+</h1>
+<div class="products-section">
+  <div *ngFor="let item of filteredProducts" class="item">
+    <div class="item-title-container">
+      <strong>{{ item.title.toUpperCase() }}</strong>
+    </div>
+
+    <img class="item-picture" [src]="item.image" />
+
+    <p class="item-description">{{ item.description }}</p>
+    <div class="price-and-buy">
+      <p class="item-category">
+        <i class="fa-solid fa-dollar-sign"></i>{{ item.price }} €
+      </p>
+      <button (click)="confirmPurchase(item)">BUY</button>
+    </div>
+  </div>
+  <app-confirmation-modal
+    *ngIf="showModal"
+    [confirmationMessage]="confirmationMessage"
+    [price]="selectedItemPrice"
+    (confirm)="onConfirmPurchase()"
+    (cancel)="onCancelPurchase()"
+  ></app-confirmation-modal>
+</div>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+.products-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap:4rem;
+    justify-content: center;
+  }
+
+  .item-title-container{
+    background-color: rgb(0, 0, 0);
+    height:3rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'Afacad', sans-serif;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+    color:white
+    
+  }
+
+  .item {
+    width: calc(22% - 10px);
+    margin-bottom: 20px; 
+    border:1px solid black;
+    border-radius:10px;
+    background-color: rgb(234, 234, 234);
+ 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+
+  .item-picture{
+    width:7rem;
+    height:10rem;
+    object-fit: contain;
+    margin-top:10px;
+
+    
+  }
+  
+  .item-description {
+   height: 130px;
+    overflow-y: auto; 
+    font-family: 'Afacad', sans-serif;
+    padding:0 2rem;
+    border:1px solid rgb(173, 173, 173);
+    margin:1rem ;
+    background-color: WHITE;
+  
+  }
+  
+  .item-category{
+    margin:0;
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    font-size:20px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: black;
+  }
+  .price-and-buy{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    padding:1rem;
+    background-color: rgb(209, 209, 209);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .price-and-buy button{
+    border-radius:10px;
+    
+    font-family: 'Afacad', sans-serif;
+    background-color: WHITE;
+    border:1px solid BLACK
+  }
+  .price-and-buy button:hover{
+transform: scale(1.2);
+background-color: rgb(0, 0, 0);
+color:white;
+  }
+  .fa-solid{
+    color:green
+  }
+h1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto 2rem auto;
+  font-family: 'Afacad', sans-serif;
+  background-color: rgb(237, 237, 237);
+
+}
