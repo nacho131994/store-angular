@@ -1,4 +1,4 @@
-# Your çonline Shop 👕💍💻💵
+# Your Online Shop 👕💍💻💵
 
 ## DESCRIPTION
 
