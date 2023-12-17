@@ -4,9 +4,11 @@
 
 A online shop interface using Angular and TypeScript.
 
+## DEMO
 
+You can try the app clicking in this URL :
+https://youronlineshop.onrender.com/
 
-  
 
 ## INSTALLATION
 
