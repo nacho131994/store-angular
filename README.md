@@ -6,18 +6,16 @@ A online shop interface using Angular and TypeScript.
 
 ## DEMO
 
-You can visit the following link if you want to try it:
+You can try the app clicking in this URL :
+https://youronlineshop.onrender.com/
 
-https://footballfantasy.onrender.com
-
-  
 
 ## INSTALLATION
 
 You can clone the repository to your computer by running:
 
 ```
-git clone https://github.com/nacho131994/yourWeatherApp
+git clone https://github.com/nacho131994/store-angular
 
 ```
 
